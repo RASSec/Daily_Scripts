@@ -17,7 +17,11 @@
 ├─ get-pip2.py  # pip2安装脚本
 ├─ sukebei_sernumb_rename.py  # sukebei种子名替换脚本
 └─ 免杀
-       └─ Invoke-Mimikatz
-              ├─ Invoke-Mimikatz.ps1  # 原版Invoke-Mimikatz ps文件
-              └─ Invoke-Mimikatz_obf.ps1  # Invoke-Mimikatz obf混淆后的文件
+     ├─ Invoke-Mimikatz
+     │    ├─ Invoke-Mimikatz.ps1  # 原版Invoke-Mimikatz ps文件
+     │    └─ Invoke-Mimikatz_obf.ps1  # Invoke-Mimikatz obf混淆后的文件
+     └─ Bypass_Go
+          ├─ Bypass_Remake.cna  # CS生成shellcode插件
+          ├─ process_shellcode.go  # 加密器
+          └─ shellcode_loader.go  # shellcode_loader
 </code></pre>
